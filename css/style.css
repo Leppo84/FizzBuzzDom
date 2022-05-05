@@ -1,3 +1,40 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: blue;
+    background-color: #083b4c;
+}
+
+header {
+    height: 120px;
+    font-size: xx-large;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+section.container {
+    max-width: 720px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.square {
+    min-width: 60px;
+    height: 60px;
+    margin: 5px;
+    text-align: center;
+    background-color: #1389b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
