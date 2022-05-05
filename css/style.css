@@ -32,10 +32,8 @@ section.container {
     min-width: 60px;
     height: 60px;
     margin: 5px;
-    text-align: center;
     background-color: #1389b2;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
