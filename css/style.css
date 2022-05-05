@@ -6,6 +6,7 @@
 
 body {
     background-color: #083b4c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -37,4 +38,16 @@ section.container {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+
+.square.fizz {
+    background-color: #0bd6a1;
+}
+
+.square.buzz {
+    background-color: #ffd166;
+}
+
+.square.fizz.buzz{
+    background-color: #f0466f;
 }
