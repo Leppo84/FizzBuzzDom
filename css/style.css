@@ -14,9 +14,7 @@ header {
     font-size: xx-large;
     color: white;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    text-align: center;
     align-items: center;
 }
 
@@ -27,7 +25,7 @@ section.container {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 auto 80px;
 }
 
 .square {
